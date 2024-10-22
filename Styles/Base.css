@@ -4,19 +4,46 @@
     border: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 .header{
-    background-color: rgba(0, 0, 0, 0.701);
+    padding:14px;
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
     display: flex;
     text-align: center;
     justify-content: space-around;
+    align-items: center;
+}
+.header img{
+    height: 48px;
+    margin-left: 58px;
 }
 .header ul{
     display: flex;
     align-items: center;
     justify-content: space-evenly; 
+    margin-right: 0;
+    padding-right: 0;
 }
 .header ul>li{
     margin-left:30px ;
     list-style: none;
+}
+.header button{
+    background-color: blue;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    width: 100px;
+    height: fit-content;
+    border-radius: 30px;
+    padding-left: 0;
+}
+.header button a{
+    color: white;
+}
+.header butter:hover{
+    cursor:pointer
 }
