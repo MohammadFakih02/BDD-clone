@@ -4,8 +4,12 @@
     border: 0;
     box-sizing: border-box;
 }
+body{
+    padding-top: 80px;
+}
 a{
     text-decoration: none;
+    color: white;
 }
 .header{
     padding:14px;
@@ -13,37 +17,51 @@ a{
     color: white;
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    text-decoration: none;
     align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
 }
 .header img{
-    height: 48px;
-    margin-left: 58px;
+    height: 50px;
+    margin-left: 56px;
 }
 .header ul{
     display: flex;
     align-items: center;
     justify-content: space-evenly; 
-    margin-right: 0;
-    padding-right: 0;
+    margin-right: 10px;
+    margin-left: 20%;
 }
 .header ul>li{
+    text-decoration: none;
     margin-left:30px ;
     list-style: none;
 }
 .header button{
+    padding: 10px 0 10px 0;
     background-color: blue;
     text-align: center;
     font-weight: 600;
-    padding: 10px;
     width: 100px;
     height: fit-content;
     border-radius: 30px;
     padding-left: 0;
+    
 }
 .header button a{
     color: white;
 }
 .header butter:hover{
     cursor:pointer
+}
+.footer{
+    padding-top: 30px;
+    background-color: #212121;
+}
+.footer h4{
+    font-weight: bolder;
+    color: #c2c2c2;
 }
