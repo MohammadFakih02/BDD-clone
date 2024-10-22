@@ -60,7 +60,36 @@ a{
 footer{
     background-color:#212121 ;
     list-style: none;
+    height: 400px;
+    padding: 0px;
+}
+.title{
+    color: #d3d3d3;
+    margin-left: 140px;
+    padding-top: 40px;
 }
 .lists{
+    height:75%;
+    list-style: none;
     display: flex;
+    justify-content: space-between;
+    width: 60%;
 }
+.lists ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size:18px;
+}
+.lists h4{
+    margin-left: -20px;
+    margin-bottom: -30px;
+    color: #6a6a6a;
+    padding: 10px;
+    font-size: 18px;
+}
+footer p>a{
+    color: rgb(0, 203, 203);
+}
+
