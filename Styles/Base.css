@@ -19,7 +19,7 @@ a{
     text-align: center;
     text-decoration: none;
     align-items: center;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     right: 0;
@@ -57,11 +57,10 @@ a{
 .header butter:hover{
     cursor:pointer
 }
-.footer{
-    padding-top: 30px;
-    background-color: #212121;
+footer{
+    background-color:#212121 ;
+    list-style: none;
 }
-.footer h4{
-    font-weight: bolder;
-    color: #c2c2c2;
+.lists{
+    display: flex;
 }
