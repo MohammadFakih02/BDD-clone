@@ -1,0 +1,20 @@
+.image-container{
+    position:relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.image-container img{
+    width: 100%;
+    filter: brightness(75%);
+}
+.welcome-text{
+    position: absolute;
+    top:45%;
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.card-section{
+    text-align: center;
+}
